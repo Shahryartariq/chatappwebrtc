@@ -1,0 +1,18 @@
+{
+  "name": "realtime_chat",
+  "version": "1.0.0",
+  "description": "A Real Time Chat Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "PROD=true node index.js"
+    },
+  "author": "Ajay",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.1",
+    "socket.io": "^3.0.1"
+  }
+  
+}
